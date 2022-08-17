@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 26 01:12:31 2022
-
-@author: interns
-"""
-
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jul 25 15:45:09 2022
