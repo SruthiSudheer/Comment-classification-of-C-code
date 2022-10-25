@@ -23,4 +23,4 @@ and the argument `clf_opt` can be
     'svm' for Support Vector Machine 
     
  The desired number of terms can be selected by `no_of_selected_features`.    
- For running BERT, RoBERT and ALBERT models change the `model_name` in the `irse.py` and `model_source` in `testing_irse.py` from [Hugging Face](https://huggingface.co/models?search=bert-base-uncased)
+ For running BERT, RoBERT and ALBERT models change the `model_name` in the `irse2022.py` and `model_source` in `testing_irse.py` from [Hugging Face](https://huggingface.co/models?search=bert-base-uncased)
