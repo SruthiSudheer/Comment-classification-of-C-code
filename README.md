@@ -5,10 +5,23 @@ Classical machine learning models like random forest, logistic regression and su
 NumPy, Scikit-Learn, [NLTK](https://www.nltk.org/install.html), [Torch](https://pypi.org/project/torch/), [Transformers](https://pypi.org/project/transformers/)
 ## To run the framework
 Create a folder named `saved_models` in the main project path during training phase to store the trained models, and thus the models can be reused without training. 
-In the `testing_irse.py` the argument `model` can be 
+In the `testing_irse.py`
+the argument `model` can be 
 
     'bert' for BERT model
 
     'entropy' for Entropy based term weighting scheme
 
     'tfidf' for TF-IDF based term weighting scheme 
+and the argument `clf_opt` can be
+
+    'lr' for Logistic Regression 
+
+    'ab' for AdaBoost
+
+    'rf' for Random Forest
+
+    'svm' for Support Vector Machine 
+    
+ The desired number of terms can be selected by `no_of_selected_features`.    
+ For running BERT, RoBERT and ALBERT models change the `model_name` from [Hugging Face](https://huggingface.co/models?search=bert-base-uncased)
